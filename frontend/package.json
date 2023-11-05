@@ -11,11 +11,14 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.7.1",
+    "@circle-fin/circle-sdk": "^2.6.1",
+    "@circle-fin/circle-widgets-sdk": "^1.0.6",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@hashgraph/sdk": "^2.37.0",
     "@thirdweb-dev/react": "^4",
     "@thirdweb-dev/sdk": "^4",
+    "axios": "^1.6.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "ethers": "^5",
@@ -26,7 +29,8 @@
     "react-icons": "^4.11.0",
     "react-scroll": "^1.9.0",
     "tailwind-merge": "^2.0.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "uuid4": "^2.0.3"
   },
   "devDependencies": {
     "@types/node": "^18.11.11",

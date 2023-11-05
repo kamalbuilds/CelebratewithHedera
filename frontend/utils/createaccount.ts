@@ -1,10 +1,12 @@
-const {
+// @ts-nocheck
+import {
     Client,
     PrivateKey,
     AccountCreateTransaction,
     AccountBalanceQuery,
     Hbar,
-  } = require("@hashgraph/sdk");
+  } from "@hashgraph/sdk";
+
   require("dotenv").config();
   
   async function environmentSetup() {
